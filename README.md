@@ -1,20 +1,27 @@
 # Backend Challenge 🏅 2022 - Covid Daily Cases
 
 ## Descrição
-Nessa etapa você deverá construir uma API Restful com as melhores práticas de desenvolvimento. Para isso você deve executar os passos a seguir:
+Projeto desenvolvido para o desafio Codesh Cahallenge 2022 - Covid Daily Cases.
 
-- Obrigatório 1 - Você deverá desenvolver as seguintes rotas:
+### Rotas Disponíveis:
     - [GET]/: Retornar um Status: 200 e uma Mensagem "Backend Challenge 2021 🏅 - Covid Daily Cases"
     - [GET]/cases/:date/count: Listar todos os registros da base de dados no dia selecionado, agrupados por país e separados por variante.
     - [GET]/cases/:date/cumulative: Listar todos os registros da base de dados, retornando a soma dos casos registrados de acordo com a data selecionada, agrupados por país e separados por variante.
     - [GET]/dates: Listar as datas disponíveis no dataset
-
--Obrigatório 2 - Para alimentar o seu banco de dados você deve criar um script para armazenar os dados do arquivo CSV que o Kaggle disponibiliza.
+    - [POST]/covidcases: rota para criar os casos de covid.
+    - [POST]/database: rota para cirar o Database baseado no CSV.
+    - [DELETE]/covidcases/:id: rota para deletar algum caso baseado no id.
+    - [GET]/covidcases: rota para listar todos os casos do database.
 
 ## Linguagem:
     - Javascript
 ## Frameworks:
     - Express, Knex
 
-### Instalação:
-    comando npm install
+## Instalação:
+    comando: npm install
+
+## Rodar APP:
+    comando: npm run dev
+
+    *OBS. PARA GERAR O BANCO DE DADOS BASEADO NO ARQUIVO ".CSV" UTILIZE A ROTA "GET/DATABASE"
