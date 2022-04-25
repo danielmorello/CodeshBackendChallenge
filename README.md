@@ -25,3 +25,5 @@ Projeto desenvolvido para o desafio Codesh Cahallenge 2022 - Covid Daily Cases.
     comando: npm run dev
 
     *OBS. PARA GERAR O BANCO DE DADOS BASEADO NO ARQUIVO ".CSV" UTILIZE A ROTA "GET/DATABASE"
+
+This is a challenge by Coodesh
